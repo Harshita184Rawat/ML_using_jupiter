@@ -1,0 +1,65 @@
+- Machine learning is a subset of AI(Artificial intelligence)
+- In Machine learning we build a model or an engine and give it lots and lots
+  of data
+  ( to build a program for detecting image of a cat we give it tonns of
+  cat images, our model will find and learn patterns and the input data , so we can give it a new picture 
+  of a cat that we haven't seen before and give it to it to detect and it will 
+  tell us the certain level of accuracy)
+- Other Application of Machine learning :
+  self-driving Cars
+  Robotics
+  Language processing
+  Vision processing
+  forecasting things like stock market, weather, games etc.
+
+
+  MACHINE LEARNING IN ACTION
+( A machine learning project contains a number of steps)
+    step 1) Import the data (in a csv file)
+    step 2) clean the data (removing duplicate, imcomplete data, converting data into numerical values for use )
+    step 3) Spliting the Data into Two segments training and Test sets(input set and output set)
+    step 4) create a model (selecting an algorithm to analyze the data from diffrent machine learning algos)
+            There are libraries out there that contains these algos
+    step 5)  Train our Model (our model will then look for patterns in the data )
+    step 6) Make predictions (After looking for patterns we Make predictions)
+    step 7) Evaluate and Improve ( evaluate predictions and measure their accuracy , then go back to algo and change it 
+            to produce more accurate results or fine tune your parameters to optimize accuracy)
+
+  LIBRARIES AND TOOLS 
+    Libraries:
+    1) Numpy (provides a multidimensional array)
+    2) Pandas (Data analysis library which provides a concept calles data frame
+               Data frame is a two dimesional data structure similar to excel spreadsheet )
+    3) MatPlotLib (2D plotting library for creating graps on plot)
+    4) SciKit-Learn (provides all common algorithms like decision trees, neural networks and so on.)
+
+    Jupyter
+    - We use an environment called Jupyter for writing codes
+    - we can use other editors like vs code but are not ideal for machine learing projects, because we we need to frequently
+      inspect the data and that is hard in environments like vs code and terminal
+    - Jupyter makes it really easy to inspect our data
+
+    Anaconda (Download)
+    - It will automatically install Jupiter as well as all those popular data science libraries
+      like numpy, pandas etc.
+
+    lauch Jupyter
+
+    Importing a data sets (from website called kaggle.com)
+    Use r before the path string to convet it into raw string
+
+    green box => edit mode
+    press esc to go in cmd mode (i.e Blue box)
+
+    Shortcuts IN cmd mode
+    h : to see list of keyboard Shortcuts
+    ctrl + ENTER : to run a particular cell
+
+    In edit mode
+    . + Tab to see all the attributes and methods
+    shift to see what parameters it takes
+
+    larger dataset better accuracy
+
+# MODEL PERSISTENCE
+
